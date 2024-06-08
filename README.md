@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +45,24 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+=======
+### 회원가입, 탈퇴
+이름(성/이름 구분), 닉네임, 비밀번호
+카카오톡 로그인
+
+### 회원 페이지
+1. 회원 정보 수정
+2. 좋아요, 댓글, 리뷰 목록 / 클릭시 상세 페이지 이동
+3. 친구 목록
+
+### 영화 
+1. 영화 상세정보 - 좋아요, 댓글, 평점확인
+2. 인기순 정렬 - 카테고리 분류 가능
+3. 댓글 많은 순으로 정렬
+4. 최신순
+   
+### 부가기능
+1. 영화관 검색
+2. 채팅봇
+    
+>>>>>>> 32977eb6d66294ddd74727e660cd9bab364125cd
