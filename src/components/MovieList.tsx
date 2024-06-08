@@ -8,6 +8,7 @@ interface MovieListProps {
   movies: {
     title: string;
     posterUrl: string;
+    youtube: string;
   }[];
 }
 
@@ -32,7 +33,12 @@ const MovieList: React.FC<MovieListProps> = ({ movies }) => {
   return (
     <Slider {...settings}>
       {movies.map((movie, index) => (
-        <Movie key={index} title={movie.title} posterUrl={movie.posterUrl} />
+        <Movie
+          key={index}
+          title={movie.title}
+          posterUrl={movie.posterUrl}
+          youtube={movie.youtube}
+        />
       ))}
     </Slider>
   );

@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
-      <div className="App-main"></div>
+      <a href="https://www.youtube.com/watch?v=ig7ha2zpLZI">
+        <div className="App-main"></div>
+      </a>
 
       <div className="App-content">
         <div className="Content-title">Yoonflix 인기 콘텐츠</div>
