@@ -11,7 +11,6 @@ const Movie: React.FC<MovieProps> = ({ title, posterUrl }) => {
   return (
     <div>
       <img className="movie" src={posterUrl} alt={`${title}`} />
-      <h2>{title}</h2>
     </div>
   );
 };

@@ -3,15 +3,21 @@
 }
 
 .App-logo {
-  height: 8vmin;
-  margin-left: 3%;
-  margin-top: 3%;
+  height: 5vmin;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  margin-top: 2%;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.App-main {
+  width: 100%;
+  content: url("./누가파스타를훔쳐먹었는가.png");
+}
+
+@media (max-width: 768px) {
+  .App-main {
+    content: url("./main_mobile.png");
   }
 }
 
