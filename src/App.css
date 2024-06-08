@@ -6,7 +6,7 @@
   height: 5vmin;
   margin-left: 2%;
   margin-bottom: 2%;
-  margin-top: 2%;
+  margin-top: 3%;
   pointer-events: none;
 }
 
@@ -19,15 +19,19 @@
   .App-main {
     content: url("./main_mobile.png");
   }
+  .App-logo {
+    height: 8vmin;
+  }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-content {
+  margin-left: 3%;
   display: flex;
   flex-direction: column;
-
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.Content-title {
+  margin-top: 5%;
+  margin-bottom: 2%;
 }
