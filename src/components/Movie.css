@@ -2,8 +2,23 @@
   height: 50vh;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 380px) {
   .movie {
     height: 20vh;
+  }
+}
+@media (min-width: 381px) and (max-width: 440px) {
+  .movie {
+    height: 15vh;
+  }
+}
+@media (min-width: 441px) and (max-width: 768px) {
+  .movie {
+    height: 25vh;
+  }
+}
+@media (min-width: 769px) and (max-width: 1030px) {
+  .movie {
+    height: 28vh;
   }
 }

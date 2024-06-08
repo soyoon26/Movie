@@ -21,9 +21,16 @@ const MovieList: React.FC<MovieListProps> = ({ movies }) => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 768, // 모바일 기준 크기
+        breakpoint: 1025, // 모바일 기준 크기
         settings: {
-          slidesToShow: 3, // 모바일에서는 3개의 슬라이드 표시
+          slidesToShow: 4, // 모바일에서는 3개의 슬라이드 표시
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 380,
+        settings: {
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
