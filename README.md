@@ -1,5 +1,15 @@
-```
+![main](readme_assets/yoon_logo.png)
+<br/>
+## 🛸 사이트 링크
 
+[YOONFLIX](https://yoonflix.netlify.app/)
+<br/>
+## 📆 프로젝트 기간
+
+
+## 💻프로젝트 구조
+
+```
 📦src
  ┣ 📂assets
  ┃ ┣ 📂popular
