@@ -5,7 +5,7 @@
 [YOONFLIX](https://yoonflix.netlify.app/)
 <br/>
 ## 📆 프로젝트 기간
-
+2024/06/08~2024/06/09
 
 ## 💻프로젝트 구조
 
