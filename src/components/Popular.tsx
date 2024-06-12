@@ -8,7 +8,7 @@ import fifth from "../assets/popular/DP.jpg";
 import sixth from "../assets/popular/살인자난감.webp";
 import seventh from "../assets/popular/굿걸스.jpg";
 function Popular() {
-  const movies = [
+  const moviesObj = [
     {
       title: "빌어먹을 세상 따위",
       posterUrl: first,
@@ -45,6 +45,7 @@ function Popular() {
       youtube: "https://www.youtube.com/watch?v=Q0Tfuwlg-Z0",
     },
   ];
+  const movies = Array.from(Object.values(moviesObj));
   return (
     <div>
       <MovieList movies={movies} />
